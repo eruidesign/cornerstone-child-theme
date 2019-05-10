@@ -10,28 +10,7 @@
  */
 get_header(); ?>
 
-<div class="title-bar" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-  <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title">Menu</div>
-</div>
-
-<div class="top-bar" id="realEstateMenu">
-  <div class="top-bar-left">
-    <ul class="menu" data-responsive-menu="accordion">
-      <li class="menu-text">Interplanetary</li>
-      <li><a href="#">One</a></li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-    </ul>
-  </div>
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li><a href="#">My Account</a></li>
-      <li><a class="button">Login</a></li>
-    </ul>
-  </div>
-</div>
-<!-- /Navigation -->
+<div class="grid-container">
 
 <div class="grid-x grid-padding-x grid-padding-y">
 
@@ -131,68 +110,7 @@ get_header(); ?>
         <a class="button hollow expanded">Load More</a>
     </div>
 </div>
-
-<footer>
-  <div class="grid-x grid-padding-x grid-padding-y">
-
-    <div class="cell small-6 large-3">
-      <p class="lead">Offices</p>
-      <ul class="menu vertical">
-        <li><a href="#">One</a></li>
-        <li><a href="#">Two</a></li>
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-      </ul>
-    </div>
-
-    <div class="cell small-6 large-3">
-      <p class="lead">Solar Systems</p>
-      <ul class="menu vertical">
-        <li><a href="#">One</a></li>
-        <li><a href="#">Two</a></li>
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-      </ul>
-    </div>
-
-    <div class="cell small-6 large-3">
-      <p class="lead">Contact</p>
-      <ul class="menu vertical">
-        <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
-        <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
-        <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
-        <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
-      </ul>
-    </div>
-
-    <div class="cell small-6 large-3">
-      <p class="lead">Offices</p>
-      <ul class="menu vertical">
-        <li><a href="#">One</a></li>
-        <li><a href="#">Two</a></li>
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-      </ul>
-    </div>
-
-  </div>
-  <div class="grid-x grid-padding-x grid-padding-y">
-
-    <div class="cell medium-6">
-      <ul class="menu">
-        <li><a href="#">Legal</a></li>
-        <li><a href="#">Partner</a></li>
-        <li><a href="#">Explore</a></li>
-      </ul>
-    </div>
-
-    <div class="cell medium-6">
-      <ul class="menu float-right">
-        <li class="menu-text">Copyright</li>
-      </ul>
-    </div>
-  </div>
-
-</footer>
+    
+</div>
 
 <?php get_footer(); ?>
