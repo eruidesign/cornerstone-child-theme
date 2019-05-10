@@ -33,7 +33,7 @@ get_header(); ?>
 </div>
 <!-- /Navigation -->
 
-<div class="grid-x">
+<div class="grid-x grid-padding-x">
 
   <div class="cell medium-7 large-6">
     <h1>Close Your Eyes and Open Your Mind</h1>
