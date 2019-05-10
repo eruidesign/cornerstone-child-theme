@@ -33,7 +33,7 @@ get_header(); ?>
 </div>
 <!-- /Navigation -->
 
-<div class="grid-x grid-padding-x">
+<div class="grid-x grid-padding-x grid-padding-y">
 
   <div class="cell medium-7 large-6">
     <h1>Close Your Eyes and Open Your Mind</h1>
@@ -68,15 +68,13 @@ get_header(); ?>
 
 </div>
 
-<div class="grid-x cell">
-  <hr>
+<div class="grid-x grid-padding-x grid-padding-y">
+    <div class="cell">
+        <p class="lead">Trending Planetary Destinations</p>
+    </div>
 </div>
 
-<div class="grid-x cell">
-  <p class="lead">Trending Planetary Destinations</p>
-</div>
-
-<div class="grid-x small-up-1 medium-up-2 large-up-3">
+<div class="grid-x small-up-1 medium-up-2 large-up-3 grid-padding-x grid-padding-y">
   <div class="cell">
     <div class="callout">
       <p>Pegasi B</p>
@@ -128,12 +126,14 @@ get_header(); ?>
 
 </div>
 
-<div class="grid-x cell">
-  <a class="button hollow expanded">Load More</a>
+<div class="grid-x grid-padding-x grid-padding-y">
+    <div class="cell">
+        <a class="button hollow expanded">Load More</a>
+    </div>
 </div>
 
 <footer>
-  <div class="grid-x expanded callout secondary">
+  <div class="grid-x grid-padding-x grid-padding-y">
 
     <div class="cell small-6 large-3">
       <p class="lead">Offices</p>
@@ -176,7 +176,7 @@ get_header(); ?>
     </div>
 
   </div>
-  <div class="grid-x">
+  <div class="grid-x grid-padding-x grid-padding-y">
 
     <div class="cell medium-6">
       <ul class="menu">
